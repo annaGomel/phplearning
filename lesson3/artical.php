@@ -26,12 +26,12 @@
     ],
        
     2 => [
-        'title' => 'zagolovok1',
+        'title' => 'zagolovok2',
         'image' => '../This-Is-Why-Cats-Are-Afraid-of-Cucumbers-760x506.jpg',
         'content' =>' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, minus accusamus aliquid itaque libero et at esse, cupiditate quae nostrum, laudantium, nisi dolorum voluptatum debitis ratione impedit vitae odio ipsum quod perferendis. Ratione consequatur pariatur, mollitia eaque quisquam autem tempora. Rem possimus, laudantium perferendis quidem itaque, voluptatum cum exercitationem dolorem! ',            
     ],
        3 => [
-        'title' => 'zagolovok1',
+        'title' => 'zagolovok3',
         'image' => '../This-Is-Why-Cats-Are-Afraid-of-Cucumbers-760x506.jpg',
         'content' =>' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, minus accusamus aliquid itaque libero et at esse, cupiditate quae nostrum, laudantium, nisi dolorum voluptatum debitis ratione impedit vitae odio ipsum quod perferendis. Ratione consequatur pariatur, mollitia eaque quisquam autem tempora. Rem possimus, laudantium perferendis quidem itaque, voluptatum cum exercitationem dolorem! ',            
     ], 
@@ -49,7 +49,7 @@
                 <p class="card-text"><?= $item['content'] ?></p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
     </div>
-  
+
  
 </div>
 <?php
