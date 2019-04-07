@@ -35,20 +35,6 @@ if(isset($_POST['submit'])) {
 
     }
 
- /*
-    if(!in_array( $password, $good_passwords )) {
-        echo " Sorry you are not allowed <br>";
-    } else {
-        echo "Welcome";
-    }
-
-    if(!in_array($mail, $good_mails )) {
-        echo " Sorry you are not allowed <br>";
-    } else {
-        echo "Welcome";
-    }
-*/
-
     if(!in_array( $u_name, $good_names )) {
         echo " Sorry you are not allowed <br>";
     } else {
