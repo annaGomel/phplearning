@@ -12,9 +12,7 @@
 
 if(isset($_POST['submit'])) {
 
-    $good_names = array("Edwin", "Peter", "Samid", "Mohad", "Maria", "Jane", "tom");;
-  //  $good_passwords = array();;
- //   $good_mails= array();
+    $good_names = array("Jon", "Alex", "Peter", "Mohammed", "Same", "Tom");
 
     $minimun = 3;
     $maximun = 30;
@@ -42,9 +40,6 @@ if(isset($_POST['submit'])) {
         echo "Email: " . $mail."<br/>";
         echo "Your Password is " . $password;
     }
-
-
-
 }
 
 
