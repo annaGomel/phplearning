@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+
+<!--2.1 Создать форму, в которую пользователь вносит информацию (например логин),
+полученные данные вывести на экран. Сделать проверку на пустоту. Сделать проверку на длину логина не менее 3 символов.
+-->
+
+<div class="row">
+    <div class="col-12">
+
+        <form action="form.php" method="post">
+            <input type="text" name="login" placeholder="ENTER LOGIN">
+            <input type="submit" name="submit">
+        </form>
+        <br>
+    </div>
+</div>
+
+
+
+<!-- //3.1 Создать форму с текстовым полем и кнопкой submit. Поль-
+зователь должен вводить в текстовое поле название логина, пароля и e-mail адреса.
+При нажатии на кнопку submit, должно происходить следующие дей-
+ствия:
+- название логина, пароля и e-mail адреса из формы должно выводится на экран;
+- проверка валидации на стороне сервера;
+- логин должен быть не менее 3 символов и не более 30 символов;
+
+-->
+
+
+<form action="form1.php" method="post">
+
+    <input type="text" name="name" placeholder="Enter  your name"><br>
+    <input type="password"  name="password" placeholder="Enter your Password"><br>
+    <input type="email"  name="mail" placeholder="Enter your e-mail"><br>
+    <input type="submit" name="submit">
+
+
+</form>
+
+
+
+
+</body>
+
+
+</html>
+
