@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ff82925-2b7a-4d09-995d-42a1b0516a9c" name="Default" comment="04042019 class">
+    <list default="true" id="3ff82925-2b7a-4d09-995d-42a1b0516a9c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson5/classwork/files.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson5/classwork/users.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homework/form1.php" afterPath="$PROJECT_DIR$/homework/form1.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,14 +29,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="form1.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/homework/form1.php">
+      <file leaf-file-name="users.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson5/classwork/users.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-              <folding>
-                <element signature="e#8#69#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="files.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lesson5/classwork/files.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -58,6 +67,7 @@
         <option value="$PROJECT_DIR$/homework/form.php" />
         <option value="$PROJECT_DIR$/homework/07.04.19HW.html" />
         <option value="$PROJECT_DIR$/homework/form1.php" />
+        <option value="$PROJECT_DIR$/lesson5/classwork/files.php" />
       </list>
     </option>
   </component>
@@ -116,6 +126,12 @@
               <item name="phplearning" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="lesson5" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="phplearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phplearning" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lesson5" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="classwork" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -128,6 +144,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\domains\phplearning\lesson5\classwork" />
       <recent name="D:\WEB\OSPanel\domains\phplearning\homework" />
     </key>
   </component>
@@ -159,12 +176,20 @@
       <workItem from="1553788610226" duration="193000" />
       <workItem from="1554392138039" duration="6923000" />
       <workItem from="1554633295660" duration="11848000" />
-      <workItem from="1554650366972" duration="2841000" />
+      <workItem from="1554650366972" duration="6508000" />
     </task>
+    <task id="LOCAL-00001" summary="07042019homework finisce">
+      <created>1554655454319</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554655454320</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21805000" />
+    <option name="totallyTimeSpent" value="25472000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -197,7 +222,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="04042019 class" />
-    <option name="LAST_COMMIT_MESSAGE" value="04042019 class" />
+    <MESSAGE value="07042019homework finisce" />
+    <option name="LAST_COMMIT_MESSAGE" value="07042019homework finisce" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -334,6 +360,22 @@
           <folding>
             <element signature="e#8#69#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson5/classwork/users.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson5/classwork/files.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
