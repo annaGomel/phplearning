@@ -21,14 +21,12 @@ if(isset($_POST['submit'])) {
     $password = $_POST['password'];
     $mail=$_POST['mail'];
 
-    if(strlen($password) < $minimun ) {
-
+    if(strlen($u_name) < $minimun ) {
         echo "Username has to be longer 3 <br>";
 
     }
 
-    if(strlen($password) > $maximun  ) {
-
+    if(strlen($u_name) > $maximun  ) {
         echo "Username cannot be longer than 30 <br>";
 
     }
