@@ -58,6 +58,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lesson5/classwork/files.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="85">
               <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
             </state>
@@ -81,6 +82,11 @@
               <folding>
                 <element signature="e#8#69#0#PHP" expanded="true" />
               </folding>
+=======
+            <state relative-caret-position="221">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
@@ -209,8 +215,13 @@
 <<<<<<< Updated upstream
       <workItem from="1554392138039" duration="6923000" />
       <workItem from="1554633295660" duration="11848000" />
+<<<<<<< Updated upstream
       <workItem from="1554650366972" duration="6508000" />
       <workItem from="1554665187098" duration="5883000" />
+=======
+      <workItem from="1554650366972" duration="6608000" />
+      <workItem from="1555255099654" duration="22000" />
+>>>>>>> Stashed changes
     </task>
     <task id="LOCAL-00001" summary="07042019homework finisce">
       <created>1554655454319</created>
@@ -219,6 +230,7 @@
       <option name="project" value="LOCAL" />
       <updated>1554655454320</updated>
     </task>
+<<<<<<< Updated upstream
     <task id="LOCAL-00002" summary="07042019homework finishe update">
       <created>1554666546559</created>
       <option name="number" value="00002" />
@@ -252,6 +264,23 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
+=======
+    <task id="LOCAL-00002" summary="07042019classwork">
+      <created>1554660278574</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1554660278574</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="25594000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+>>>>>>> Stashed changes
     <layout>
 <<<<<<< Updated upstream
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25321338" />
@@ -276,7 +305,11 @@
 =======
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18176973" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+<<<<<<< Updated upstream
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+=======
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+>>>>>>> Stashed changes
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -301,12 +334,40 @@
     <MESSAGE value="04042019 class" />
 <<<<<<< Updated upstream
     <MESSAGE value="07042019homework finisce" />
+<<<<<<< Updated upstream
     <MESSAGE value="07042019homework finishe update" />
     <option name="LAST_COMMIT_MESSAGE" value="07042019homework finishe update" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/web-forms.rnc" />
     <entry file="file://$PROJECT_DIR$/homework/28.03.2019.lesson2.1.php">
+=======
+    <MESSAGE value="07042019classwork" />
+    <option name="LAST_COMMIT_MESSAGE" value="07042019classwork" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lesson5/classwork/users.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson5/classwork/files.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework/07.04.19.lesson4.php">
+>>>>>>> Stashed changes
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-306" />
       </provider>
@@ -320,6 +381,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/homework/21.03.2019 lesson1.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="-255" />
       </provider>
     </entry>
@@ -327,6 +389,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-end-line="2" selection-end-column="6" />
+=======
+        <state relative-caret-position="680">
+          <caret line="40" column="22" lean-forward="false" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
@@ -423,22 +489,37 @@
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_defines.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="214">
           <caret line="575" column="9" selection-start-line="575" selection-start-column="9" selection-end-line="575" selection-end-column="9" />
+=======
+        <state relative-caret-position="555">
+          <caret line="40" column="22" lean-forward="false" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_5.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="509">
           <caret line="1132" column="16" lean-forward="true" selection-start-line="1132" selection-start-column="16" selection-end-line="1132" selection-end-column="16" />
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/homework/11.04.19HW1.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="119">
           <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+=======
+        <state relative-caret-position="323">
+          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
@@ -464,6 +545,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/homework/11.04.19HW.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state>
           <caret line="15" column="60" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="60" />
 =======
@@ -473,6 +555,11 @@
           <folding>
             <element signature="e#6#86#0#PHP" expanded="true" />
           </folding>
+=======
+        <state relative-caret-position="221">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
