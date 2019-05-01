@@ -21,7 +21,6 @@
 
 if(isset($_POST['submit'])) {
 
-    $good_names = array("Jon", "Alex", "Peter", "Mohammed", "Same", "Tom");
     $minimun = 3;
     $maximun = 30;
     $u_name = $_POST['name'];
@@ -30,20 +29,39 @@ if(isset($_POST['submit'])) {
 
     if(strlen($u_name) < $minimun ) {
         echo "Username has to be longer 3 <br>";
+        return;
     }
 
     if(strlen($u_name) > $maximun  ) {
         echo "Username cannot be longer than 30 <br>";
-
+        return;
     }
 
-    if(!in_array( $u_name, $good_names )) {
-        echo " Sorry you are not allowed <br>";
+    if (empty($password)){
+        echo "Password is empty <br>";
+        return;
+    }
+
+    if (empty($mail)){
+        echo "Email is empty <br>";
+        return;
+    }
+
+    $file="users.txt";
+    $user_exist=null;
+
+    if (file_exists($file)) {
+        $users = file_get_contents($file);
+        $user_exist = strstr($users, $u_name);
+    }
+
+    if($user_exist!=null) {
+        echo " Sorry  this user: $u_name  already exist <br>";
+        echo nl2br($users);
+
     } else {
-        $file="users.txt";
         $content = "User:".$u_name."\n"."Email:".$mail."\n"."Password:".$password."\n";
         file_put_contents($file, $content, FILE_APPEND | LOCK_EX);
-
 
         echo "Hello "."<br/>";
         $users = file_get_contents($file);
