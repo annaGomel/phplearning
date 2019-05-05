@@ -23,7 +23,7 @@ include "functions.php";
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header">
-                    Старница управления постами
+                    Страница управления постами
                 </h1>
                 <ol class="breadcrumb">
                     <li>
@@ -36,10 +36,46 @@ include "functions.php";
                 </ol>
             </div>
 
-            <div class="col-md-12">
-                <table>
-                   <a href="create-post.php" class="btn btn-success">Создать пост</a>
+            <div class="col-md-12"><a href="create-post.php" class="btn btn-success">Создать пост</a>
 
+            </div>
+            <div class="col-md-12">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>id</th>
+                        <th>title</th>
+                        <th>content</th>
+                        <th>image</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <?php
+
+                    $sql = "SELECT * FROM posts";
+                    $result = mysqli_query($connection, $sql);
+                    confirmQuery($result);
+                    foreach ($result as $posts) :
+
+                        ?>
+
+                        <tr>
+                            <td><?=$posts['id']?></td>
+                            <td><?=$posts['title']?></td>
+                            <td><?=$posts['content']?></td>
+                            <td><?=$posts['image']?></td>
+                            <td>
+                                <a href="olposts.php?update=<?=$posts['id']?>" class="btn btn-primary">Редактировать</a>
+                                <a
+                                        href="olposts.php?delete=<?=$posts['id']?>"
+                                        class="btn btn-danger"
+                                        onclick="return confirm('Вы уверены?')"
+                                >Удалить</a>
+                            </td>
+                        </tr>
+
+                    <?php endforeach;?>
+                    </tbody>
                 </table>
             </div>
         </div>
