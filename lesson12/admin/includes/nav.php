@@ -124,7 +124,7 @@
                 </a>
             </li>
             <li>
-                <a href="olposts.php">
+                <a href="posts.php">
                     <i class="fa fa-fw fa-dashboard"></i>
                     посты
                 </a>

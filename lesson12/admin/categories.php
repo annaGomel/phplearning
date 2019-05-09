@@ -61,7 +61,7 @@ include "functions.php";
                     $name = htmlspecialchars($_POST['name']);
                     $code = htmlspecialchars($_POST['code']);
 
-                    $sql_create = "INSERT INTO caregories(name, code) VALUES ('{$name}', '{$code}')";
+                    $sql_create = "INSERT INTO categories(name, code) VALUES ('{$name}', '{$code}')";
                     $create_result = mysqli_query($connection, $sql_create);
                     confirmQuery($create_result);
 
