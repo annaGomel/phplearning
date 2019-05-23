@@ -1,0 +1,30 @@
+1.	Выберите из таблицы workers записи с id равным 3, 5, 6, 10.
+SELECT * FROM `workers` WHERE id in (3,5,6,10)
+
+2.	Выберите из таблицы workers записи с id равным 3, 5, 6, 10 и логином, равным 'eee', 'zzz' или 'ggg'.
+SELECT * FROM `workers` WHERE id IN(3,5,6,8,10) and login='eee'
+
+3.	Выберите из таблицы workers записи c зарплатой от 500 до 1500.
+SELECT * FROM `workers` WHERE salary BETWEEN 500 AND 1500
+
+4.	Найдите в таблице workers минимальный возраст.
+SELECT MIN(age) FROM workers
+
+5.	Даны две таблицы: таблица category с полями id и name и таблица page с полями id, name и category_id.
+Достаньте одним запросом все страницы вместе с их категориями
+
+SELECT page.id, page.name, page.category_id, category.name AS 'category name' FROM `page` INNER JOIN category
+ON page.category_id=category.id
+
+6.	Даны 3 таблицы: таблица category с полями id и name, таблица sub_category с полями id и name и таблица page с
+ полями id, name и sub_category_id. Достаньте одним запросом все страницы вместе с их подкатегориями и категориями.
+
+SELECT page.id, page.name, category.id, category.name as 'category name',  page.sub_category_id, sub_category.name as 'sub category name' FROM page
+INNER JOIN sub_category ON page.sub_category_id =sub_category.id
+INNER JOIN category ON sub_category.id =category.id
+
+7.	Выберите из таблицы workers все записи, у которых дата больше текущей
+SELECT * FROM `workers` as w1 WHERE w1.date > Now()
+
+8.	Найдите самые маленькие зарплаты по группам возрастов (для каждого возраста свою минимальную зарплату)
+SELECT age, worker, MIN(salary) AS 'min salary' FROM workers GROUP BY age
