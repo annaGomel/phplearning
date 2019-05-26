@@ -28,3 +28,29 @@ SELECT * FROM `workers` as w1 WHERE w1.date > Now()
 
 8.	Найдите самые маленькие зарплаты по группам возрастов (для каждого возраста свою минимальную зарплату)
 SELECT age, worker, MIN(salary) AS 'min salary' FROM workers GROUP BY age
+
+
+2 часть
+(1) достать товары вместе с категориями
+1.SELECT tovary.id, tovary.name, tovary.prace, tovary.count, tovary.category_id, tovary_category.name AS 'category
+name' FROM `tovary` INNER JOIN tovary_category ON tovary.category_id=tovary_category.id
+
+(2) достать товары из категории 'Овощи'
+2.SELECT tovary.id, tovary.name, tovary.prace, tovary.count, tovary.category_id, tovary_category.name AS 'category
+ name' FROM `tovary` INNER JOIN tovary_category ON tovary.category_id=tovary_category.id WHERE tovary_category.id=1
+
+(3) достать товары из категорий 'Овощи', 'Мясо', 'Морепродукты'
+3.SELECT tovary.id, tovary.name, tovary.prace, tovary.count, tovary.category_id, tovary_category.name AS 'category
+name' FROM `tovary` INNER JOIN tovary_category ON tovary.category_id=tovary_category.id WHERE tovary_category.id in (1,2,3)
+
+(4) достать все категории (без товаров, только названия категорий)
+SELECT tovary_category.id, tovary_category.name AS 'category name' FROM `tovary_category`
+
+(5) достать все категории, в которых есть товары (без товаров, только названия категорий, без дублей)
+SELECT DISTINCT tovary.category_id, tovary_category.name AS 'category name' FROM `tovary` INNER JOIN tovary_category ON tovary.category_id=tovary_category.id
+WHERE tovary_category.id in (1,2,3)
+
+(1) достать товары вместе с подкатегориями и категориями
+SELECT DISTINCT tovary.name, tovary.prace, tovary.count, tovary.sub_category_id, tovary_sub_category.name AS 'sub category name', tovary_category.id, tovary_category.name AS 'category name' FROM `tovary`
+INNER JOIN tovary_sub_category ON tovary_sub_category.id= tovary.sub_category_id
+INNER JOIN tovary_category ON tovary_category.id=tovary_sub_category.category_id
