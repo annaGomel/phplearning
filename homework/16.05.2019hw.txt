@@ -51,6 +51,29 @@ SELECT DISTINCT tovary.category_id, tovary_category.name AS 'category name' FROM
 WHERE tovary_category.id in (1,2,3)
 
 (1) достать товары вместе с подкатегориями и категориями
-SELECT DISTINCT tovary.name, tovary.prace, tovary.count, tovary.sub_category_id, tovary_sub_category.name AS 'sub category name', tovary_category.id, tovary_category.name AS 'category name' FROM `tovary`
+SELECT  tovary.name, tovary.prace, tovary.count, tovary.sub_category_id, tovary_sub_category.name AS 'sub category name', tovary_category.id, tovary_category.name AS 'category name' FROM `tovary`
 INNER JOIN tovary_sub_category ON tovary_sub_category.id= tovary.sub_category_id
 INNER JOIN tovary_category ON tovary_category.id=tovary_sub_category.category_id
+
+(2) достать товары из подкатегории 'Помидоры'
+SELECT tovary.name, tovary.prace, tovary.count, tovary.sub_category_id, tovary_sub_category.name AS 'sub category name',
+tovary_category.id, tovary_category.name AS 'category name' FROM `tovary`
+INNER JOIN tovary_sub_category ON tovary_sub_category.id= tovary.sub_category_id
+INNER JOIN tovary_category ON tovary_category.id=tovary_sub_category.category_id
+WHERE tovary_sub_category.name = 'помидоры'
+
+(3) достать все подкатегории категории 'Овощи'
+SELECT tovary_sub_category.id AS 'SUB_CATEGORY_ID', tovary_sub_category.name AS 'SUB_CATEGORY_NAME', tovary_category.id
+AS 'CATEGORY_ID', tovary_category.name AS 'CATEGORY_NAME'FROM tovary_category
+INNER JOIN tovary_sub_category ON tovary_sub_category.category_id= tovary_category.id
+WHERE tovary_category.name = 'овощи'
+
+Запросы: (1) достать товары с их категорией, складом и брэндом,
+SELECT tovar.id,tovar.name,brand.id AS 'brand_id',brand.name AS 'brand_name', category.id
+AS 'category_id', category.name AS 'category_name', stok.id AS 'stok_id', stok.name AS 'stok_name' FROM `tovar`
+INNER JOIN brand ON tovar.brand_id= brand.id
+INNER JOIN category ON tovar.category_id = category.id
+INNER JOIN stok ON tovar.stok_id=stok.id
+
+ (2) достать все склады
+ SELECT * FROM `stok`
