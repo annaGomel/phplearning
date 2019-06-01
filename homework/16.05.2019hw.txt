@@ -77,3 +77,14 @@ INNER JOIN stok ON tovar.stok_id=stok.id
 
  (2) достать все склады
  SELECT * FROM `stok`
+
+
+( 3 )Пользователь, обмен сообщениями между пользователями (в личку). Сообщение можно пометить как прочитанное
+(это может только получатель сообщения).
+SELECT `messages`.`status` FROM `messages` WHERE `messages`.`status`='Прочитано'
+
+
+ ( 4 ) Сайт с опросами (опросов много). Пользователи отвечают на вопросы опроса. На сайте нужно выводить результаты
+  опроса. Пользователи видят в личном кабинете вопросы, на которые они отвечали, и то, как они на них отвечали.
+ SELECT * FROM `messages` WHERE `messages`.`status`='Прочитано'
+ SELECT `messages`.`status`, `messages`.`vopros`,`messages`.`otvet` FROM `messages` WHERE `messages`.`status`='Прочитано'
