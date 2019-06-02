@@ -2,9 +2,9 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title><?= $title ?></title>
-    <link href="../css/normalize.min.css" rel="stylesheet">
-    <link href="../css/style.css" rel="stylesheet">
+    <title><?= htmlspecialchars(ucfirst($title))  ?></title>
+    <link href="./css/normalize.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
 </head>
 <body>
 <div class="page-wrapper">
@@ -13,7 +13,7 @@
         <div class="main-header__container container">
             <h1 class="visually-hidden">YetiCave</h1>
             <a class="main-header__logo">
-                <img src="../img/logo.svg" width="160" height="39" alt="Логотип компании YetiCave">
+                <img src="./img/logo.svg" width="160" height="39" alt="Логотип компании YetiCave">
             </a>
             <form class="main-header__search" method="get" action="https://echo.htmlacademy.ru" autocomplete="off">
                 <input type="search" name="search" placeholder="Поиск лота">
@@ -28,8 +28,9 @@
             </nav>
         </div>
     </header>
-
-<?= $content ?>
+    <div id="еен">
+        <?= $content ?>
+    </div>
 </div>
 
 <footer class="main-footer">
@@ -82,8 +83,7 @@
         </div>
     </div>
 </footer>
-
-<script src="flatpickr.js"></script>
-<script src="script.js"></script>
+&lt;script src="flatpickr.js"&gt; &lt;/script&gt;
+&lt;script src="script.js" &gt; &lt;/script&gt;
 </body>
 </html>
