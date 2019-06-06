@@ -1,11 +1,11 @@
 <?php
-$connection = mysqli_connect(
+$connection_new = mysqli_connect(
     'localhost',
     'root',
     '',
     'lesson14'
 );
-if(!$connection){
+if(!$connection_new){
     echo "Подключение к БД не успешно";
 }
 ?>
