@@ -4,7 +4,7 @@
 
           <?php foreach ($categories  as $category): ?>
               <li class="nav__item">
-                  <a class="promo__link" href="pages/all-lots.html?category=<?= $category['id']?>">
+                  <a class="promo__link"  href="index.php?category=<?= $category['id']?>">
                       <?= htmlspecialchars(ucfirst($category['name']))?>
                   </a>
               </li>
@@ -17,8 +17,15 @@
       <div class="lot-item__content">
         <div class="lot-item__left">
           <div class="lot-item__image">
-              <img src="./img/<?=$lotInfo['picture'];?>"  width="730" height="548" alt="Сноуборд">
+              <?php  if ($lotInfo['picture']){?>
+                  <img  src="./uploads/<?=$lotInfo['picture'];?>" width="730" height="548"alt="<?=$lotInfo['title'];?>">
+              <?} else {?>
+                  <img  src="./img/no-image.jpg" width="350" height="260" alt="<?=$lotInfo['title'];?>">
+              <?}?>
+
           </div>
+
+
           <p class="lot-item__category">Категория:
               <?php foreach ($categories as $cat) :
                   if($cat['id']==$lotInfo['category_id']) {
