@@ -4,7 +4,7 @@
     include "includes/header.php";
     include "includes/nav.php";
 
-    $getPosts = "SELECT * FROM posts LIMIT 3";
+    $getPosts = "SELECT * FROM posts LIMIT 5";
     $posts = mysqli_query($connection, $getPosts);
     if(!$posts) {
         echo "Запрос не удался";
