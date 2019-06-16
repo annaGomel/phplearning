@@ -1,0 +1,8 @@
+1 composer self-update
+composer require doctrine/dbal
+composer require "laravelcollective/html":"^5.8"
+composer require " Intervention/image":"^5.8"
+Fixer
+2 composer global require laravel/installer
+3 c:\Users\ANNA\AppData\Roaming\Composer\vendor\bin\
+d:\WEB\OSPanel\domains\
