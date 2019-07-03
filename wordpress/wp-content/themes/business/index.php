@@ -12,7 +12,7 @@
  * @package business
  */
 
-get_header();
+get_header("header2");
 ?>
 
 	<div id="primary" class="content-area">
