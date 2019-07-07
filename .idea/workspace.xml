@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5dfb5d4e-813f-4968-a16b-839e6474726e" name="Default Changelist" comment="30.06.2019 clwork">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webshop1" />
+    <list default="true" id="5dfb5d4e-813f-4968-a16b-839e6474726e" name="Default Changelist" comment="07.07.2019 clwork">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webshop1" afterPath="$PROJECT_DIR$/webshop1" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -224,72 +224,6 @@
               <item name="phplearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="phplearning" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="phplearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="phplearning" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="webshop1" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="phplearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="phplearning" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="webshop1" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="phplearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="phplearning" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="webshop1" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="phplearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="phplearning" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="webshop1" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="phplearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="phplearning" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="webshop1" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="phplearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="phplearning" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="webshop1" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="migrations" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="phplearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="phplearning" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="webshop1" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="phplearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="phplearning" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="webshop1" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="phplearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="phplearning" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="webshop1" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="category" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="phplearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="phplearning" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="webshop1" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="routes" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -399,11 +333,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561917275570</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="07.07.2019 clwork">
+      <created>1562521870730</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1562521870730</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130879000" />
+    <option name="totallyTimeSpent" value="131081000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -451,7 +392,8 @@
     <MESSAGE value="13.05.19 homework 12 part 2 увеличили лимит  выборки" />
     <MESSAGE value="23.06.2019 clwork" />
     <MESSAGE value="30.06.2019 clwork" />
-    <option name="LAST_COMMIT_MESSAGE" value="30.06.2019 clwork" />
+    <MESSAGE value="07.07.2019 clwork" />
+    <option name="LAST_COMMIT_MESSAGE" value="07.07.2019 clwork" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
