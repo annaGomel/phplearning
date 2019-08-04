@@ -9,29 +9,29 @@
 
 get_header();
 ?>
+<div class="single-business">
+    <div class="container">
+        <div class="row">
+            <div class="box">
+               <? if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+                    <div class="col-lg-12">
+                        <?php the_post_thumbnail('post-thumbnail', array('class'=>'img-responsive img-border img-full')) ?>
+                        <h2 class="text-center"><? the_title() ?>
+                            <br>
+                            <small><? the_time('F j,Y') ?></small>
+                        </h2>
+                            <? the_content() ?>
+                    </div>
+                     <? endwhile; ?>
+                <? else:?>
+            <? endif; ?>
+            </div>
+        </div>
+    </div>
+</div>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
 
-		<?php
-		while ( have_posts() ) :
-			the_post();
-
-			get_template_part( 'template-parts/content', get_post_type() );
-
-			the_post_navigation();
-
-			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-				comments_template();
-			endif;
-
-		endwhile; // End of the loop.
-		?>
-
-		</main><!-- #main -->
-	</div><!-- #primary -->
 
 <?php
-get_sidebar();
+
 get_footer();

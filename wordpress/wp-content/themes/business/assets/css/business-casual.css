@@ -193,10 +193,17 @@ footer p {
 
 /* additional */
 
-.business-front-page  .fw-row  {
+.business-front-page  .fw-row,
+.business-page  .fw-container {
     margin-bottom: 20px;
     padding: 30px 15px;
     background: #fff;
     background: rgba(255, 255, 255, 0.9);
+
+}
+
+.contact-form input[type='submit'] {
+font-size: 14px;
+padding: 6px 12px;
 
 }
